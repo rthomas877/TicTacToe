@@ -67,7 +67,7 @@ function MainBar({difficulty, setDifficulty, color1, setColor1, color2, setColor
     return (
         <nav className="fixed top-0 w-full h-[10vmin] z-50 border-gray-700" style={{ backgroundColor: color2 }}>
             <div className="flex items-center justify-between h-full px-5">
-                <h1 className="font-logo text-[6vmin]" style={{ color: color1 }}>Tic-Tac-Toe</h1>
+                <h1 className="font-logo text-[6vmin]" style={{ color: color1 }}>Tic-Tac-Toe!</h1>
                 <div className="flex gap-[2vmin]">
                     {/* Dropdown wrapper */}
                     <div ref={dropdownRef} className="relative inline-block">
